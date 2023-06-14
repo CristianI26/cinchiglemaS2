@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="cinchiglemaS2.ejercicio">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Estudiantes"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Picker Title="Estudiantes" x:Name="pciudades" SelectedIndexChanged="pciudades_SelectedIndexChanged" >
+                                  <Picker.Items>
+                    <x:String>Juan</x:String>
+                    <x:String>Andres</x:String>
+                    <x:String>Adriana</x:String>
+                    <x:String>Mayra</x:String>
+                    <x:String>Evelyn</x:String>
+
+                </Picker.Items>
+            
+        </Picker>
+            <Entry x:Name=" txnota1" Placeholder=" Ingrese la 1era Nota"></Entry>
+            <Entry x:Name=" txexamen1" Placeholder=" Ingrese la Nota del examen"></Entry>       
+            <DatePicker x:Name="dpfechas" Date="06/06/2023" Format="M/d/yyyy"/>
+            <Button x:Name=" btnmostrar" Text=" mostrar notas" Clicked="btnmostrar_clicked"></Button>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
