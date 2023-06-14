@@ -36,8 +36,9 @@ namespace cinchiglemaS2
             double nota2 = Convert.ToDouble(txexamen1.Text );
             
              
-
-
+            //prueba de gib
+            //cambio de prueba
+            //fewfwefsdf
 
         }
     }  

@@ -9,7 +9,7 @@ namespace cinchiglemaS2
         public App()
         {
             InitializeComponent();
-
+            //comentario de prueba 
             MainPage = new ejercicio();
         }
 
