@@ -10,6 +10,7 @@ namespace cinchiglemaS2
         {
             InitializeComponent();
             //comentario de prueba 
+            //cambio 2
             MainPage = new ejercicio();
         }
 
